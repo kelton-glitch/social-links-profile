@@ -1,0 +1,117 @@
+ @font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/static/Inter-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/static/Inter-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+ }
+ 
+ body {
+    padding-top: 10px;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 400;
+    background-color: hsl(0,0%,8%);
+    color: hsl(0,0%,100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ .card {
+    width: 400px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: hsl(0,0%,12%);
+    flex-direction: column;
+    border-radius: 10px;
+ }
+
+ img{
+    margin: 25px  0px;
+    width: 30%;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    max-width: 100px;
+    height: auto;
+ }
+
+ .name{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 10px 0px;
+ }
+
+ .location {
+    color: hsl(75,94%,57%);
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 16px;
+ }
+
+
+ .links{
+   margin-bottom: 10px;
+ }
+
+ .links a {
+   display: block;
+   background-color: hsl(0,0%,20%);
+   color: white;
+   padding: 16px 100px;
+   margin: 1.2rem 0;
+   text-decoration: none;
+   border-radius: 10px;
+   transition: background-color 0.3s ease;
+   text-align: center;
+   font-weight: 600;
+   font-size: 16px;
+ }
+
+ .links a:hover{
+   cursor: pointer;
+   background-color: hsl(0,0%,35%);
+ }
+ p{
+    font-size: 14px;
+ }
+
+ #ig{
+    margin-bottom: 25px;
+ }
+ 
+ .attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   font-size: 11px;
+     text-align: center;
+     font-style: italic;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+ @media screen and (max-width:1440px) {
+   .card{
+      width: 430px;
+   }
+
+   .links a{
+      padding: 0.9rem 7.2rem;
+   }
+ }
