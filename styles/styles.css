@@ -70,7 +70,7 @@
    display: block;
    background-color: hsl(0,0%,20%);
    color: white;
-      padding: 0.5rem 6.5rem;
+   padding: 1rem 6.5rem;
    margin: 1.2rem 0;
    text-decoration: none;
    border-radius: 10px;
@@ -111,6 +111,6 @@
    }
 
    .links a{
-      padding: 0.5rem 6.5rem;
+      padding: 1rem 6.5rem;
    }
  }
