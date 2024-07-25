@@ -30,7 +30,7 @@
  }
 
  .card {
-    width: 400px;
+    width: 370px;
     display: flex;
     position: relative;
     align-items: center;
@@ -70,7 +70,7 @@
    display: block;
    background-color: hsl(0,0%,20%);
    color: white;
-   padding: 16px 100px;
+      padding: 0.5rem 6.5rem;
    margin: 1.2rem 0;
    text-decoration: none;
    border-radius: 10px;
@@ -107,10 +107,10 @@
 
  @media screen and (max-width:1440px) {
    .card{
-      width: 430px;
+      width: 370px;
    }
 
    .links a{
-      padding: 0.9rem 7.2rem;
+      padding: 0.5rem 6.5rem;
    }
  }
